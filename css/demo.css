@@ -1,7 +1,7 @@
 @import url('normalize.css');
 /* General Demo Style */
 body{
-	font-family: 'Open Sans Condensed','Arial Narrow', serif;
+	 font-family:Helvetica Neue,"STHeiti","Hiragino Sans GB",sans-serif;
 	/*background:  url(../images/titlebar.png) repeat-x top left;*/
 	background:rgb(240,240,240);
 	font-weight: 400;
@@ -410,23 +410,29 @@ a:hover{
 }
 
 #foot{
-	margin-top:38px;
+	margin-top:50px;
 	display:block;
-	height:192px;
-	position:absolute;
+	height:140px;
 	width:100%;
 	background: rgb(0,0,0);
 	}
-#footimg{
+	
+#foot_text{
 	display:block
-	position:relative;
-	width:1366px;
-	height: 192px;
-	background: url(../images/foot.png);
-
-	margin-bottom: 0;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 0px;
+	position: relative;
+	width: 900px;
+	height: 100px;
+   margin-bottom: 0;
+   margin-top:50px;
+   margin-left:auto;
+   margin-right:auto;
 	clear: both;
 	}
+#foot_text ul{
+	text-align:center;
+	font-size:16px;
+	color:#fff;
+	margin-bottom: 10px;
+	margin-top:10px;
+	}	
+	

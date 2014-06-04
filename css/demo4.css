@@ -1,7 +1,7 @@
 @import url('normalize.css');
 /* General Demo Style */
 body{
-	font-family: 'Open Sans Condensed','Arial Narrow', serif;
+	font-family:Helvetica Neue,"STHeiti","Hiragino Sans GB",sans-serif;
 	/*background:  url(../images/titlebar.png) repeat-x top left;*/
 	background:rgb(240,240,240);
 	font-weight: 400;
@@ -301,7 +301,7 @@ a:hover{
 	height /**/: 59px;
     padding-top: 59px;
 	text-decration:none;
-	background:url(../images/fd2.png) left top;
+	background:url(../images/fd4.png) left top;
 	}
 
 #main #button a:hover{
@@ -311,7 +311,7 @@ a:hover{
 	height /**/: 59px;
     padding-top: 59px;
 	text-decration:none;
-	background:url(../images/fd2p.png) left top;
+	background:url(../images/fd4p.png) left top;
 	}
 	
 #main #button2{
@@ -331,7 +331,7 @@ a:hover{
 	height /**/: 59px;
     padding-top: 59px;
 	text-decration:none;
-	background:url(../images/fd3.png) left top;
+	background:url(../images/fd2.png) left top;
 	}
 
 #main #button2 a:hover{
@@ -341,7 +341,7 @@ a:hover{
 	height /**/: 59px;
     padding-top: 59px;
 	text-decration:none;
-	background:url(../images/fd3p.png) left top;
+	background:url(../images/fd2p.png) left top;
 	}
 
 #main #button3{
@@ -361,7 +361,7 @@ a:hover{
 	height /**/: 59px;
     padding-top: 59px;
 	text-decration:none;
-	background:url(../images/fd1.png) left top;
+	background:url(../images/fd3.png) left top;
 	}
 
 #main #button3 a:hover{
@@ -371,7 +371,7 @@ a:hover{
 	height /**/: 59px;
     padding-top: 59px;
 	text-decration:none;
-	background:url(../images/fd1p.png) left top;
+	background:url(../images/fd3p.png) left top;
 	}
 	
 	#main #button4{
@@ -391,7 +391,7 @@ a:hover{
 	height /**/: 59px;
     padding-top: 59px;
 	text-decration:none;
-	background:url(../images/fd4.png) left top;
+	background:url(../images/fd1.png) left top;
 	}
 
 #main #button4 a:hover{
@@ -401,7 +401,7 @@ a:hover{
 	height /**/: 59px;
     padding-top: 59px;
 	text-decration:none;
-	background:url(../images/fd4p.png) left top;
+	background:url(../images/fd1p.png) left top;
 	}
 #gameposter{
 	display:block
@@ -474,26 +474,31 @@ a:hover{
 }
 
 #foot{
-	margin-top:38px;
+	margin-top:50px;
 	display:block;
-	height:192px;
-	position:absolute;
+	height:140px;
 	width:100%;
 	background: rgb(0,0,0);
 	}
-#footimg{
+	
+#foot_text{
 	display:block
-	position:relative;
-	width:1366px;
-	height: 192px;
-	background: url(../images/foot.png);
-
-	margin-bottom: 0;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 0px;
+	position: relative;
+	width: 900px;
+	height: 100px;
+   margin-bottom: 0;
+   margin-top:50px;
+   margin-left:auto;
+   margin-right:auto;
 	clear: both;
 	}
+#foot_text ul{
+	text-align:center;
+	font-size:16px;
+	color:#fff;
+	margin-bottom: 10px;
+	margin-top:10px;
+	}	
 
 #product ul{
 	position: relative;
@@ -505,6 +510,7 @@ a:hover{
 
 #product li{
 	float:left;
+    width:230px;
 	height:372px;
 	list-style:none;
 	}
@@ -512,7 +518,62 @@ a:hover{
 #product li.product_li{
 padding-left:25px;
 	}
-	
+
+#product a.sb{
+    float:left;
+    width:230px;
+	height:372px;
+background:url(../images/sb.png) left top;
+}
+
+#product a:hover.sb{
+    float:left;
+    width:230px;
+	height:372px;
+background:url(../images/sb1.png) left top;
+}
+#product a.yx{
+    float:left;
+    width:230px;
+	height:372px;
+background:url(../images/yx.png) left top;
+}
+
+#product a:hover.yx{
+    float:left;
+    width:230px;
+	height:372px;
+background:url(../images/yx1.png) left top;
+}
+
+#product a.gq{
+    float:left;
+    width:230px;
+	height:372px;
+background:url(../images/gq.png) left top;
+}
+
+#product a:hover.gq{
+    float:left;
+    width:230px;
+	height:372px;
+background:url(../images/gq1.png) left top;
+}
+
+#product a.jd{
+    float:left;
+    width:230px;
+	height:372px;
+background:url(../images/jd.png) left top;
+}
+
+#product a:hover.jd{
+    float:left;
+    width:230px;
+	height:372px;
+background:url(../images/jd1.png) left top;
+}
+
 #info{
 	display:block
 	position:relative;

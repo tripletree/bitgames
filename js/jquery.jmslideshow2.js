@@ -18,8 +18,8 @@
 		jmpressOpts	: {
 			// set the viewport
 			viewPort 		: {
-				height	: 400,
-				width	: 1000,
+				height	: 877,
+				width	: 995,
 				maxScale: 1
 			},
 			fullscreen		: false,

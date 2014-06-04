@@ -1,7 +1,7 @@
 @import url('normalize.css');
 /* General Demo Style */
 body{
-	font-family:"微软雅黑","Microsoft YaHei",Arial, Helvetica, sans-serif;
+	font-family:Helvetica Neue,"STHeiti","Hiragino Sans GB",sans-serif;
 	color:#999;
 	/*background:  url(../images/titlebar.png) repeat-x top left;*/
 	background:rgb(240,240,240);
@@ -23,7 +23,7 @@ li {
 	list-style:none;
 }
 a{
-	color:#999;
+	color:#000;
 	text-decoration:none;
 }
 a:hover{
@@ -270,63 +270,227 @@ a:hover{
 	background:url(../images/menu4.png);
 	background-position:-660px 0px;
 	}
-#main{
+#main0{
 	display:block
 	position: relative;
-	/*width: 1365 px;
-	height: 2065px;
-	background: url(../images/about_us.png);*/
-	width: 995px;
-	height: 1950px;
-	background: url(../images/guanyuwomen.png);
+	width: 1000px;
+	height: 102px;
+	background: url(../images/aboutTitle1.png) center ;
    margin-bottom: 0;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top:25px;
 	clear: both;
 	}
-	
-#main #button{
+
+#main2{
 	display:block
-	position:absolute;
-	width:92px;
-	height:37px;
-	float:right;
-	margin-top:1809px;
-	margin-right:490px;
+	position: relative;
+	width: 1000px;
+	height: 700px;
+   margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:25px;
+	border: 1px solid #bcc4d7;
+	background-color:#FFFFFF;
+	clear: both;
 	}
-#main #button a{
-	display:block;
-	overflow:hidden;
-	height: 0 !important; 
-	height: 37px;
-	padding-top: 37px;
-	text-decration:none;
-	background:url(../images/sina.png) left top;
+#main2img{
+	display:block
+	position: relative;
+	width: 1000px;
+	height: 71px;
+	background:url(../images/about2.png) center no-repeat;
+    margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
 	}
 
-
-#main #button2{
+#main2text{
 	display:block
-	position:absolute;
-	height:37px;
-	float:left;
-	width:92px;
-	margin-left:413px;
+	position: relative;
+	width: 960px;
+	height: 835px;
+    margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top:10px;
+	clear: both;
+	}
 	
+#main2text ul{
+	text-align:left;
+	font-size:22px;
+	font-weight: 580;
+	color:#000;
+	letter-spacing:2px;
+	line-height: 44px;
+	margin-bottom: 10px;
 	}
 
-#main #button2 a{
+#main4{
+	display:block
+	position: relative;
+	width: 1000px;
+	height: 220px;
+   margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:28px;
+	border: 1px solid #bcc4d7;
+	background-color:#FFFFFF;
+	clear: both;
+	}
+#main4img{
+	display:block
+	position: relative;
+	width: 1000px;
+	height: 71px;
+	background:url(../images/about3.png) center no-repeat;
+    margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	}
+
+#main4text{
+	display:block
+	position: relative;
+	width: 960px;
+	height: 220px;
+    margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:10px;
+	clear: both;
+	}
+	
+#main4text ul{
+	text-align:left;
+	font-size:22px;
+	font-weight:598;
+	color:#000;
+	letter-spacing:2px;
+	line-height: 44px;
+	margin-bottom: 10px;
+	}
+#main5{
+	display:block
+	position: relative;
+	width: 1000px;
+	height: 160px;
+   margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:28px;
+	border: 1px solid #bcc4d7;
+	background-color:#FFFFFF;
+	clear: both;
+	}
+
+#main5img{
+	display:block
+	position: relative;
+	width: 1000px;
+	height:160px;
+	background:url(../images/about4.png) center no-repeat;
+    margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	}
+	
+#main6{
+	display:block
+	position: relative;
+	width: 995px;
+	height:500px;
+   margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:28px;
+	border: 1px solid #bcc4d7;
+	background-color:#dedede;
+	clear: both;
+	}
+
+#main6img{
+	display:block
+	position: relative;
+	width: 1000px;
+	height:74px;
+	background:url(../images/about5.png) no-repeat center;
+    margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	}
+#aboutlogo{
+	display:block
+	position: relative;
+	width: 248px;
+	height:303px;
+	background:url(../images/aboutlogo.png)no-repeat center;
+    margin-bottom: 0;
+	margin-left:18px;
+	margin-top:20px;
+	float:left;
+	}	
+	#main6text{
+	display:block
+	position: relative;
+	width: 720px;
+	height: 400px;
+    margin-bottom: 0;
+	margin-left:auto;
+	margin-top:20px;
+	float:left;
+	}
+	
+#main6text ul{
+	text-align:left;
+	font-size:21px;
+	color:#000;
+	letter-spacing:2px;
+	line-height: 34px;
+	margin-bottom: 10px;
+	margin-left:30px;
+	}
+
+
+#main6text img{
+	text-align:center;
+	margin-top:5px;
+	}
+#foot{
+	margin-top:50px;
 	display:block;
-	overflow:hidden;
-	height: 0 !important; 
-	height: 37px;
-    padding-top: 37px;
-	text-decration:none;
-	background:url(../images/weixin.png) ;
+	height:140px;
+	width:100%;
+	background: rgb(0,0,0);
 	}
-
+	
+#foot_text{
+	display:block
+	position: relative;
+	width: 900px;
+	height: 100px;
+   margin-bottom: 0;
+   margin-top:0px;
+   margin-left:auto;
+   margin-right:auto;
+	clear: both;
+	}
+#foot_text ul{
+	text-align:center;
+	font-size:16px;
+	color:#fff;
+	margin-bottom: 10px;
+	margin-top:10px;
+	}	
+	
 
 #gameposter{
 	display:block
@@ -398,27 +562,7 @@ a:hover{
     z-index: 99;
 }
 
-#foot{
-	margin-top:50px;
-	display:block;
-	height:192px;
-	position:absolute;
-	width:100%;
-	background: rgb(0,0,0);
-	}
-#footimg{
-	display:block
-	position:relative;
-	width:1366px;
-	height: 192px;
-	background: url(../images/foot.png);
 
-	margin-bottom: 0;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 0px;
-	clear: both;
-	}
 #menubg {
 	width:1370 px;
 	height:98px;

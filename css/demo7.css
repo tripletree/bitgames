@@ -1,7 +1,7 @@
 @import url('normalize.css');
 /* General Demo Style */
 body{
-	font-family:"微软雅黑","Microsoft YaHei",Arial, Helvetica, sans-serif;
+	font-family:Helvetica Neue,"STHeiti","Hiragino Sans GB",sans-serif;
 	color:#999;
 	/*background:  url(../images/titlebar.png) repeat-x top left;*/
 	background:rgb(240,240,240);
@@ -273,12 +273,9 @@ a:hover{
 #main{
 	display:block
 	position: relative;
-	/*width: 1365 px;
-	height: 2065px;
-	background: url(../images/about_us.png);*/
-	width: 1368px;
-	height: 1785px;
-	background: url(../images/developers.png);
+	width: 1270px;
+	height: 613px;
+	background: url(../images/developers2.png);
    margin-bottom: 0;
 	margin-left: auto;
 	margin-right: auto;
@@ -292,7 +289,7 @@ a:hover{
 	height:66px;
 	float:right;
 	margin-top:290px;
-	margin-right:200px;
+	margin-right:165px;
 	}
 #main #button a{
 	display:block;
@@ -320,9 +317,8 @@ a:hover{
 	height:66px;
 	float:left;
 	width:347px;
-	margin-left:820px;
+	margin-left:758px;
 	margin-top:20px;
-	
 	}
 
 #main #button2 a{
@@ -345,6 +341,35 @@ a:hover{
 	background:url(../images/Demop.png) ;
 	}
 
+#content {
+	display:block;
+	position: relative;
+	width: 1002px;
+   margin-bottom: 0;
+   margin-top:14px;
+   margin-left:auto;
+   margin-right:auto;
+	clear: both;
+	}
+	
+#content ul{
+	text-align:left;
+	font-size:28px;
+	font-weight:bold;
+	color:#ff2a00;
+	letter-spacing:2px;
+	margin-bottom: 10px;
+	}
+
+#content li{
+	margin-left:38px;
+	text-align:left;
+	font-size:28px;
+	font-weight:bold;
+	color:#000;
+	letter-spacing:2px;
+	margin-bottom: 14px;
+	}
 #gameposter{
 	display:block
 	position:relative;
@@ -418,24 +443,30 @@ a:hover{
 #foot{
 	margin-top:50px;
 	display:block;
-	height:192px;
-	position:absolute;
+	height:140px;
 	width:100%;
 	background: rgb(0,0,0);
 	}
-#footimg{
+	
+#foot_text{
 	display:block
-	position:relative;
-	width:1366px;
-	height: 192px;
-	background: url(../images/foot.png);
-
-	margin-bottom: 0;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 0px;
+	position: relative;
+	width: 900px;
+	height: 100px;
+   margin-bottom: 0;
+   margin-top:50px;
+   margin-left:auto;
+   margin-right:auto;
 	clear: both;
 	}
+#foot_text ul{
+	text-align:center;
+	font-size:16px;
+	color:#fff;
+	margin-bottom: 10px;
+	margin-top:10px;
+	}	
+	
 #menubg {
 	width:1370 px;
 	height:98px;

@@ -1,7 +1,7 @@
 @import url('normalize.css');
 /* General Demo Style */
 body{
-	font-family: 'Open Sans Condensed','Arial Narrow', serif;
+	font-family:Helvetica Neue,"STHeiti","Hiragino Sans GB",sans-serif;
 	/*background:  url(../images/titlebar.png) repeat-x top left;*/
 	background:rgb(240,240,240);
 	font-weight: 400;
